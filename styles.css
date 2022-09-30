@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 200px;
+}
+#first_img{
+    width: 40vw;
+    height: 60vh;
+}
+.pontos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.principal{
+    font-size: 80px;
+    color: black;
+    text-decoration: solid underline black;
+}
+
+#sobreNos{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+}

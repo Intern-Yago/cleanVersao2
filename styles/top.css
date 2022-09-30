@@ -1,0 +1,68 @@
+#top, #logo, header address{
+    position: relative;
+    z-index: 2;
+}
+
+#arcoTop{
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 40vh;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    width: 260px;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+nav{
+    position: relative;
+    margin-left: 37vw;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: flex-end;
+}
+nav li{
+    display: block;
+    margin: 0 5px 0 5px;
+}
+nav .nav_button{
+    top: 1.5em;
+
+    background: #ffffff;
+    border: none;
+    
+    text-align: center; 
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    
+    overflow: hidden;
+    position: relative;
+}
+nav .nav_button:hover{
+    background-color: #14235A;
+    border-radius: 10px;
+}
+nav .nav_button span a:hover{
+    color: white;
+}
+nav .nav_button span a{
+    color: #14235A;
+    display: inline-block;
+    position: relative;
+    padding: 10px 24px; 
+}
+
+

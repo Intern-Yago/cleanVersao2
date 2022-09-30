@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo funde preenchido.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="servicos.css">
+    <link rel="stylesheet" href="styles/top.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/carrosel.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Best Clean Brasília</title>
+</head>
+<body>
+    <header>
+        <img src="image/parte_cima2.png" alt="" id="arcoTop">
+        <div id="top">
+            <div class="flex">
+                <a href="#" class="logo">
+                    <img src="image/logo funde preenchido.png" alt="Logo do Best Clean Brasília" id="logo">
+                </a>
+                <nav id="nav-menu">
+                    <ul>
+                        <li>
+                            <button class="nav_button">
+                                <span>
+                                    <a href="#">
+                                        Página inicial
+                                    </a>
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="nav_button">
+                                <span>
+                                    <a href="">Serviços</a>
+                                </span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="nav_button">
+                                <span>
+                                    <a href="">Mídias sociais</a>
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <img src="image/sala.jpg" alt="" id="first_img">
+        <div id="servicos" class="pontos">
+            <h2 class="principal">Nossos serviços</h2>
+            
+            <div id="sobre">
+                <div class="conteudo" id="limpezaEstofado">
+                    <div class="information" onclick="showCont('le', 'toggle_le')">
+                        <h2 class="title">Higienização de Estofados</h2>
+                        <i class="bx bx-down-arrow-alt" id="toggle_le"></i>
+                    </div>
+                    <div>
+                        <img src="image/servicos/quadrado_Higienizacao_de_sofa.jpg" onclick="showCont('le')" alt="Higienização de sofá">
+                        <span id="le">
+                            <p>
+                                Com o uso rotineiro, os estofados da casa costumam acumular sujeira, poeira, bactérias e germes, sendo necessária uma higienização de qualidade. Nossos métodos permitem que o estofado fique limpo, higienizado e com ótima aparência, a secagem é rápida e não causa mau cheiro, descoloração ou qualquer outro dano ao tecido. Sendo ideal para famílias que sentem a necessidade de praticidade e facilidade.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="conteudo" id="limpezaCortinas">
+                    <div class="information" onclick="showCont('lc', 'toggle_lc')">
+                        <h2 class="title">Limpeza de Cortinas</h2>
+                        <i class="bx bx-down-arrow-alt" id="toggle_lc"></i>
+                    </div>
+                    <div>
+                        <img src="image/servicos/quadrado_cortinas.png" alt="Limpeza de cortinas">
+                        <span id="lc">
+                            <p>
+                                Sempre nos protegendo de vizinhos curiosos e da luz solar, as cortinas acabam acumulando muita poeira e sujeira, precisando de um cuidado também. Lavamos cortinas de diversos materiais que são entregues limpas e passadas.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+        
+                <div class="conteudo" id="limpezaTapete">
+                    <div class="information" onclick="showCont('lt', 'toggle_lt')">
+                        <h2 class="title">Lavagem de Tapetes e Carpetes</h2>
+                        <i class="bx bx-down-arrow-alt" id="toggle_lt"></i>
+                    </div>
+                    <div>
+                        <img src="image/servicos/limpeza_ded_tapetes.png" onclick="showCont('lt')" alt="limpeza de tapetes">  
+                        <span class="texto" id="lt">
+                            <p>
+                                Sabemos que, onde se tem tapetes e carpetes, a higienização é essencial, independente do fluxo do local, já que acumulam-se muita poeira e resíduos que ficam nos sapatos e no chão. Pensando na facilidade e praticidade do cliente, retiramos e retornamos os tapetes já higienizados em até 7 dias — sempre com dia e hora marcada. Ainda contamos com equipamentos profissionais para lavagem a seco, ou com água, afim de remover resíduos totalmente e sem danificar o tecido.
+                            </p>
+                        </span> 
+                    </div>
+                </div>
+                
+                <div class="conteudo" id="limpezaInterior">
+                    <div class="information" onclick="showCont('li', 'toggle_li')">
+                        <h2 class="title">Limpeza de Interior de Veiculos</h2>      
+                        <i class="bx bx-down-arrow-alt" id="toggle_li"></i>
+                    </div>
+                    <div>
+                        <img src="image/servicos/quadrado_limpeza_de_interior_de_veiculos.png" onclick="showCont('li')" alt="limpeza de interior">     
+                        <span id="li">
+                            <p>
+                                Por conta da correria, o interior e os bancos dos carros e veículos sempre acabam acumulando migalhas de lanches, bactérias, pelo de pets e muitas outras coisas inevitáveis. Somos especialistas em lavagem de estofados automotivos e cuidamos de cada detalhe para que seu transporte fique ainda mais bonito por dentro.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+        
+                <div class="conteudo" id="impermeabilizacao">
+                    <div class="information" onclick="showCont('i', 'toggle_i')">
+                        <h2 class="title">Impermeabilização de Estofados</h2>
+                        <i class="bx bx-down-arrow-alt" id="toggle_i"></i>
+                    </div>
+                    <div>
+                        <img src="image/servicos/impermeabilizacao_de_estofados.png" onclick="showCont('i')" alt="impermeabilização de estofados">
+                        <span id="i">
+                            <p>
+                                É sempre importante impermeabilizar o estofado após a limpeza, a fim de que preserve por mais tempo sua higienização e o bom cheirinho que fica. A técnica de impermeabilização garante a facilidade de limpeza de líquidos e facilita muito o dia a dia, sendo ideal para qualquer um.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+        
+    
+            </div>
+        </div>
+
+        <hr>
+        
+        <div id="lounge" class="pontos">
+            <h2 class="principal">Um Pouco Sobre Nós</h2>
+            <p id="sobreNos">
+                Sendo uma empresa familiar, sabemos o valor de cada cliente e seu lar, procurando personalizar o nosso atendimento e te proporcionar soluções para o que seriam seus problemas.<br>
+                Sabendo a importância de manter uma casa, um local de trabalho e até mesmo o meio de locomoção em ambientes agradáveis, buscamos manter a higienização e todo o cuidado que seu produto merece.<br>
+                Contamos também com especialistas no assunto, produtos de qualidade e aparelhos excelentes para garantir que tudo saia na melhor forma possível.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
