@@ -3,11 +3,18 @@
     z-index: 2;
 }
 
+#top{
+    background-color: #14235A;
+    border-bottom: 10px solid #1F5A2D;
+    margin-bottom: 40px;
+}
+
 #arcoTop{
     position: absolute;
     z-index: 0;
     width: 100vw;
     height: 40vh;
+    display: none;
 }
 
 .flex{
@@ -20,12 +27,15 @@
     margin-left: 10px;
     margin-top: -40px;
 }
+.logo{
+    height: 190px;
+}
 
 nav{
     position: relative;
     margin-left: 37vw;
     margin-right: 50px;
-    margin-top: 10px;
+    margin-top: 5%;
 }
 nav ul{
     display: flex;
@@ -66,3 +76,12 @@ nav .nav_button span a{
 }
 
 
+@media (max-width: 700px) {
+    #top{
+        border: none;
+        background-color: transparent
+    }
+    #arcoTop{
+        display: block;
+    }
+}

@@ -1,5 +1,5 @@
 h2,h3{
-    color: #0D9FBA;
+    color: #14235A;
     margin: 10px;
     font-size: 1.5em;
 }
@@ -11,14 +11,6 @@ h2,h3{
     flex-wrap: wrap;
     width: 90vw;
 }
-#servicos img{
-    border-radius: 100%;
-}
-hr{
-    border-left-width: 100vw;
-    margin: 20px;
-}
-
 #sobre{
     display: flex;
     justify-content: center;
@@ -29,22 +21,58 @@ hr{
 #sobre i{
     display: none;
 }
-.conteudo{
-    font-size: 1.1em;
+
+hr{
+    border-left-width: 100vw;
     margin: 20px;
 }
-.conteudo div{
+
+.conteudo{
+    font-size: 1.2em;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+.azul{
+    background-color: #14235A;
+    color: white;
+}
+.azul h2{
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 60%;
+    margin-bottom: 70px;
+}
+
+.cont, .information{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
 }
-.conteudo img{
-    width: 40%;
+.cont{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cont img{
+    width: 50%;
+    height: 100%;
     margin-right: 15px;
     display: inline;
     border-radius: 100%;
 }
+
 .texto_sobre{
     display: inline;
 }

@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 html{
     overflow-x: hidden;
@@ -9,21 +10,36 @@ main{
     display: flex;
     position: relative;
     align-items: center;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     margin:0 200px;
 }
-#first_img{
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.imgCima{
     width: 40vw;
     height: 60vh;
+    margin: 0 20px;
+    border-radius: 10px;
 }
+.titleImg{
+    color: #14235A;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 .pontos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
