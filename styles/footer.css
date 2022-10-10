@@ -9,6 +9,7 @@ footer{
     flex-direction: column;
     padding: 20px 10px;
     width: 100vw;
+    margin-top: 100px;
 }
 
 footer h3{
@@ -116,5 +117,8 @@ abbr{
 @media (max-width:600px){
     address{
         flex-direction: column;
+    }
+    .addr{
+        align-items: flex-start;
     }
 }

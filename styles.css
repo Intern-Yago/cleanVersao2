@@ -1,18 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-}
-html{
-    overflow-x: hidden;
-}
 main{
+    font-size: 1.2em;
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin:0 200px;
+    margin:0 100px;
+    top: 150px;
 }
 .images{
     display: flex;
@@ -25,7 +19,7 @@ main{
 .imgCima{
     width: 40vw;
     height: 60vh;
-    margin: 0 20px;
+    margin: 0 20px 40px;
     border-radius: 10px;
 }
 .titleImg{
@@ -40,17 +34,25 @@ main{
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    margin-bottom: 100px;
 }
 
 .principal{
-    font-size: 80px;
+    font-size: 2em;
     color: black;
-    text-decoration: solid underline black;
 }
 
 #sobreNos{
     margin-top: 70px;
     text-align: center;
     font-size: 25px;
+}
+
+@media (max-width:800px){
+    .images{
+        flex-direction: column;
+        text-align: center;
+    }
+    .images img{
+        height: 30vh;
+    }
 }

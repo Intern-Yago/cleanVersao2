@@ -1,15 +1,14 @@
-body{
-    background-color: rgb(240, 240, 240);
-}
-main{
+#contatos{
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 8vh;
+    min-height: 500px;
+    margin-bottom: 100px;
 }
-#cont{
+#contatos #cont{
     width: 50%;
     display: flex;
     align-items: center;
@@ -18,7 +17,7 @@ main{
     background-image: linear-gradient(to bottom, green, lightgreen);
     border-radius: 10px;
 }
-.container{
+#contatos .container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,27 +29,27 @@ main{
     border: 5px solid transparent;
     border-image-slice: 1;
     border-radius: 10px;
+    margin: 0;
 }
 
-h1{
-    text-decoration: underline .1em solid black;
+#contatos h1{
     margin-bottom: .5em;
 }
 
-form{
+#contatos form{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
-fieldset{
+#contatos fieldset{
     border-radius: 5px;
     border-style: hidden;
     margin-bottom: .5em;
 }
-#message{
+#contatos #message{
     padding: 10px;
 }
-input[type=submit]{
+#contatos input[type=submit]{
     width: 100%;
     height: 2.5em;
     background-color: #020090;;
@@ -58,15 +57,15 @@ input[type=submit]{
     text-decoration: underline solid white 1px;
     cursor: pointer;
 }
-input{
+#contatos input{
     height: 30px;
     width: 100%;
 }
 
-#tel, #address{
+#contatos #tel, #contatos #address{
     width: 93%;
 }
-#inputs_form{
+#contatos #inputs_form{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -75,20 +74,23 @@ input{
 
 
 @media (max-width:1105px){
-    form{
+    #contatos form{
         flex-direction: column;
     }
-    main{
+    #contatos{
         margin-top: 40px;
     }
 }
-@media (max-width:900px){
-    #cont{
+@media (max-width:700px){
+    #contatos #cont{
         width: 90%;
+    }
+    #contatos h1{
+        text-align: center;
     }
 }
 @media (max-width:360px){
-    .container{
+    #contatos .container{
         width: 70vw;
     }
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/top.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/carrosel.css">
+    <link rel="stylesheet" href="orcamento.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <title>Best Clean Brasília</title>
 </head>
@@ -17,18 +18,17 @@
     <header>
         <img src="image/parte_cima.png" alt="" id="arcoTop">
         <div id="top">
-            <div class="flex">
+            <div class="top">
                 <a href="#" class="logo">
                     <img src="image/logo funde preenchido.png" alt="Logo do Best Clean Brasília" id="logo">
                 </a>
+                <i class='bx bx-menu header__toggle' id="header-toggle"></i>
                 <nav id="nav-menu">
                     <ul>
                         <li>
                             <button class="nav_button">
                                 <span>
-                                    <a href="#">
-                                        Página inicial
-                                    </a>
+                                    <a href="#">Página inicial</a>
                                 </span>
                             </button>
                         </li>
@@ -42,7 +42,7 @@
                         <li>
                             <button class="nav_button">
                                 <span>
-                                    <a href="">Mídias sociais</a>
+                                    <a href="#contatos">Contato</a>
                                 </span>
                             </button>
                         </li>
@@ -56,21 +56,98 @@
         <h2 class="titleImg">BestClean</h2>
         <div class="images">
             <img src="image/sala.jpg" class="imgCima first">
-            <img src="image/sala2.jpg" class="imgCima second">
+            <p>
+                Sendo uma empresa familiar, sabemos o valor de cada cliente e seu lar, procurando personalizar o nosso atendimento e te proporcionar soluções para o que seriam seus problemas.<br>
+                Sabendo a importância de manter uma casa, um local de trabalho e até mesmo o meio de locomoção em ambientes agradáveis, buscamos manter a higienização e todo o cuidado que seu produto merece.<br>
+                Contamos também com especialistas no assunto, produtos de qualidade e aparelhos excelentes para garantir que tudo saia na melhor forma possível.
+            </p>
         </div>
         <hr>
+
         <div id="servicos" class="pontos">
             <h2 class="principal">Nossos serviços</h2>
-            
+            <div id="services">
+                <a href="#limpezaEstofado">
+                    <div class="flip-card-container">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <img src="../image/servicos/quadrado_Higienizacao_de_sofa.jpg" alt="">
+                            </div>
+                            <div class="card-back">
+                                <p>Limpeza de Estofados</p>
+                                <img src="../image/servicos/quadrado_Higienizacao_de_sofa.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#limpezaCortinas">
+                    <div class="flip-card-container">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <img src="../image/servicos/quadrado_cortinas.png" alt="">
+                            </div>
+                            <div class="card-back">
+                                <p>Limpeza de Cortinas</p>
+                                <img src="../image/servicos/quadrado_cortinas.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#limpezaTapete">
+                    <div class="flip-card-container">
+                        <div class="flip-card">
+                            <div class="card-front">
+                                <img src="../image/servicos/tapete.png" alt="">
+                            </div>
+                            <div class="card-back">
+                                <p>Limpeza de tapetes<br>e carpetes</p>
+                                <img src="../image/servicos/tapete.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="#limpezaInterior">
+                    <div class="flip-card-container">
+                        <div class="flip-card"> 
+                            <div class="card-front">
+                                <img src="../image/servicos/quadrado_limpeza_de_interior_de_veiculos.png" alt="">
+                            </div>
+                            <div class="card-back">
+                                <img src="../image/servicos/quadrado_limpeza_de_interior_de_veiculos.png" alt="">
+                                <p>Limpeza de<br>interior de veículos</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="#impermeabilizacao">
+                    <div class="flip-card-container">
+                        <div class="flip-card"> 
+                            <div class="card-front">
+                                <img src="../image/servicos/impermeabilizacao_de_estofados.png" alt="">
+                            </div>
+                            <div class="card-back">
+                                <img src="../image/servicos/impermeabilizacao_de_estofados.png" alt="">
+                                <p>Impermeabilização <br> de estofados</p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </a>
+    
+            </div>
             <div id="sobre">
                 <div class="conteudo" id="limpezaEstofado">
                     <span class="container">
-                        <div class="information" onclick="showCont('le', 'toggle_le')">
+                        <div class="information">
                             <h2 class="title">Higienização de Estofados</h2>
                             <i class="bx bx-down-arrow-alt" id="toggle_le"></i>
                         </div>
                         <div class="cont">
-                            <img src="image/servicos/quadrado_Higienizacao_de_sofa.jpg" onclick="showCont('le')" alt="Higienização de sofá">
+                            <img src="image/servicos/quadrado_Higienizacao_de_sofa.jpg" alt="Higienização de sofá">
                             <span id="le">
                                 <p>
                                     Com o uso rotineiro, os estofados da casa costumam acumular sujeira, poeira, bactérias e germes, sendo necessária uma higienização de qualidade. Nossos métodos permitem que o estofado fique limpo, higienizado e com ótima aparência, a secagem é rápida e não causa mau cheiro, descoloração ou qualquer outro dano ao tecido. Sendo ideal para famílias que sentem a necessidade de praticidade e facilidade.
@@ -82,7 +159,7 @@
     
                 <div class="conteudo azul" id="limpezaCortinas">
                     <span class="container">
-                        <div class="information" onclick="showCont('lc', 'toggle_lc')">
+                        <div class="information">
                             <h2 class="title">Limpeza de Cortinas</h2>
                             <i class="bx bx-down-arrow-alt" id="toggle_lc"></i>
                         </div>
@@ -99,12 +176,12 @@
         
                 <div class="conteudo" id="limpezaTapete">
                     <span class="container">
-                        <div class="information" onclick="showCont('lt', 'toggle_lt')">
+                        <div class="information">
                             <h2 class="title">Lavagem de Tapetes e Carpetes</h2>
                             <i class="bx bx-down-arrow-alt" id="toggle_lt"></i>
                         </div>
                         <div class="cont">
-                            <img src="image/servicos/limpeza_ded_tapetes.png" onclick="showCont('lt')" alt="limpeza de tapetes">  
+                            <img src="image/servicos/tapete.png" alt="limpeza de tapetes">  
                             <span class="texto" id="lt">
                                 <p>
                                     Sabemos que, onde se tem tapetes e carpetes, a higienização é essencial, independente do fluxo do local, já que acumulam-se muita poeira e resíduos que ficam nos sapatos e no chão. Pensando na facilidade e praticidade do cliente, retiramos e retornamos os tapetes já higienizados em até 7 dias — sempre com dia e hora marcada. Ainda contamos com equipamentos profissionais para lavagem a seco, ou com água, afim de remover resíduos totalmente e sem danificar o tecido.
@@ -116,12 +193,12 @@
                 
                 <div class="conteudo azul" id="limpezaInterior">
                     <span class="container">
-                        <div class="information" onclick="showCont('li', 'toggle_li')">
+                        <div class="information" >
                             <h2 class="title">Limpeza de Interior de Veiculos</h2>      
                             <i class="bx bx-down-arrow-alt" id="toggle_li"></i>
                         </div>
                         <div class="cont">
-                            <img src="image/servicos/quadrado_limpeza_de_interior_de_veiculos.png" onclick="showCont('li')" alt="limpeza de interior">     
+                            <img src="image/servicos/quadrado_limpeza_de_interior_de_veiculos.png" alt="limpeza de interior">     
                             <span id="li">
                                 <p>
                                     Por conta da correria, o interior e os bancos dos carros e veículos sempre acabam acumulando migalhas de lanches, bactérias, pelo de pets e muitas outras coisas inevitáveis. Somos especialistas em lavagem de estofados automotivos e cuidamos de cada detalhe para que seu transporte fique ainda mais bonito por dentro.
@@ -133,12 +210,12 @@
         
                 <div class="conteudo" id="impermeabilizacao">
                     <span class="container">
-                        <div class="information" onclick="showCont('i', 'toggle_i')">
+                        <div class="information">
                             <h2 class="title">Impermeabilização de Estofados</h2>
                             <i class="bx bx-down-arrow-alt" id="toggle_i"></i>
                         </div>
                         <div class="cont">
-                            <img src="image/servicos/impermeabilizacao_de_estofados.png" onclick="showCont('i')" alt="impermeabilização de estofados">
+                            <img src="image/servicos/impermeabilizacao_de_estofados.png" alt="impermeabilização de estofados">
                             <span id="i">
                                 <p>
                                     É sempre importante impermeabilizar o estofado após a limpeza, a fim de que preserve por mais tempo sua higienização e o bom cheirinho que fica. A técnica de impermeabilização garante a facilidade de limpeza de líquidos e facilita muito o dia a dia, sendo ideal para qualquer um.
@@ -153,15 +230,106 @@
         </div>
 
         <hr>
-        
-        <div id="lounge" class="pontos">
-            <h2 class="principal">Um Pouco Sobre Nós</h2>
-            <p id="sobreNos">
-                Sendo uma empresa familiar, sabemos o valor de cada cliente e seu lar, procurando personalizar o nosso atendimento e te proporcionar soluções para o que seriam seus problemas.<br>
-                Sabendo a importância de manter uma casa, um local de trabalho e até mesmo o meio de locomoção em ambientes agradáveis, buscamos manter a higienização e todo o cuidado que seu produto merece.<br>
-                Contamos também com especialistas no assunto, produtos de qualidade e aparelhos excelentes para garantir que tudo saia na melhor forma possível.
-            </p>
+
+        <div id="contatos">
+            <div id="cont">
+                <div class="container">
+                    <h1>Solicite seu orçamento</h1>
+                    <form method="POST" action="https://formsubmit.co/bestcleanbrasilia@gmail.com">
+                        <input type="hidden" name="_next" value="https://badl0rd.github.io/best-clean-brasilia/orcamentoSucesso.html">
+                        <input type="hidden" name="_subject" value="Novo orçamento - Best Clean Brasília">
+                        <div class="esquerda_form">
+                                <div id="inputs_form">
+                                    <fieldset>
+                                        <label for="nome">Nome</label>
+                                        <input type="text" name="nome" id="name" placeholder="Digite seu nome*" required>
+                                    </fieldset>
+                                    
+                                    <fieldset>
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" id="email" placeholder="Informe seu email*" required>    
+                                    </fieldset>
+                        
+                                    <fieldset>
+                                        <label for="tel">Telefone</label>
+                                        <input type="tel" name="tel" id="tel" placeholder="Digite seu telefone*" required>
+                                    </fieldset>
+                                    
+                                    <fieldset>
+                                        <label for="address">Endereço</label>
+                                        <input type="text" name="address" id="address" placeholder="Informe seu endereço*" required>
+                                    </fieldset>
+                                </div>
+                    
+                            </div>
+                            <div class="direita_form">
+                                <div class="mensagem" id="msg">
+                                    <fieldset class="mensagem" id="message" style="border-style:groove;">
+                                        <legend>Deixe aqui seu comentário</legend>
+                                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" style="resize: vertical"></textarea>
+                                </fieldset>
+                            </div>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
+    <a href="https://wa.me/5561983416666?text=Ol%C3%A1+%F0%9F%91%8B.+Gostaria+de+realizar+um+or%C3%A7amento%21+" 
+    id="wpp_link" target="_blank" class="active">
+        <img src="../image/whatsapp.png" alt="link para whatsapp"/>
+    </a>
+    <footer>
+        <address>
+            <div class="addr right_addr">
+                <h3>Nossos contatos</h3>
+                <div id="tel_container">
+                    <span 
+                    id="tel_link" target="_blank" class="address tel">
+                        <abbr title="Ligue para nós">
+                            <img src="image/tel.svg" class="telefone">
+                        </abbr>
+                        <div id="nums">
+                            <a href="tel:(61)98341-6666" class="num" target="_blank">
+                                <p id="num-1"><abbr title="Clique para ligar">(61)98341-6666</abbr></p>
+                                <img src="image/whatsapp.png" alt="">
+                            </a>
+                            <a href="tel:(61)3264-6666" class="num" target="_blank">
+                                <p id="num-2"><abbr title="Clique para ligar">(61)3264-6666</abbr></p>
+                                <img src="image/whatsapp.png" alt="">
+                            </a>
+                        </div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="addr left_addr">
+                <div id="insta_container">
+                    <a href="https://www.instagram.com/bestcleanbrasilia" 
+                    class="address insta" id="insta_link" target="_blank">
+    
+                        <img src="image/instagram.svg" alt="Logo instagram" id="logo_insta" />
+                        <p>@bestcleanbrasilia</p>
+    
+                    </a>
+                </div>
+                
+                <div id="gmail_container">
+                    <a href="
+                    https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bestcleanbrasilia@gmail.com
+                    " 
+                    class="address gmail" id="gmail_link" target="_blank">
+    
+                        <img src="image/gmail-logo.svg" alt="Logo Gmail">
+                        <p>bestcleanbrasilia@gmail.com</p>
+    
+                    </a>
+    
+                </div>
+            </div>
+        </address>
+    </footer>
+    <script src="js/dropdown.js"></script>
 </body>
 </html>
