@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 main{
     font-size: 1.2em;
     display: flex;
@@ -50,9 +53,12 @@ main{
 @media (max-width:800px){
     .images{
         flex-direction: column;
-        text-align: center;
+        font-size: 1em;
     }
     .images img{
         height: 30vh;
+    }
+    main{
+        font-size: .9em;
     }
 }
