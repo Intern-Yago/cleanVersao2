@@ -10,6 +10,7 @@ main{
     flex-direction: column;
     margin:0 100px;
     top: 150px;
+    background-color: white;
 }
 .images{
     display: flex;
