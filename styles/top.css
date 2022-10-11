@@ -128,7 +128,8 @@ i{
     }
     #top{
         align-items: center;
-        height: 20%;
+        height: 15%;
+        min-height: 100px;
     }
     #logo{
         width: 172px;

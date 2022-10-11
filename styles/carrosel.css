@@ -29,6 +29,7 @@
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
+  text-align: center;
 }
 .card-back{
   transform: rotateY(180deg);
