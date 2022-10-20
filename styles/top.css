@@ -7,6 +7,9 @@ body{overflow-x: hidden;}
 html{
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+}
 .top{
     display: flex;
     justify-content: space-between;
@@ -69,6 +72,8 @@ nav .nav_button{
     
     overflow: hidden;
     position: relative;
+
+    transition: all .3s;
 }
 nav .nav_button:hover{
     background: white;
