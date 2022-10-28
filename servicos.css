@@ -13,6 +13,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     width: 90vw;
+    scroll-margin-top: 200px;
 }
 #services img{
     border-radius: 100%;
@@ -49,6 +50,7 @@ hr{
     justify-content: center;
     align-items: center;
     width: 100vw;
+    scroll-margin-top: 100px;
 }
 .azul{
     background-color: #14235A;
