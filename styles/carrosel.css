@@ -34,7 +34,7 @@
 .card-back{
   transform: rotateY(180deg);
 }
-.card-back p{
+.p{
   position: absolute;
   z-index: 1;
   color: white;
@@ -50,7 +50,7 @@
 }
 
 @media (max-width:900px){
-  .card-back p{
+  .p{
     font-size: 10px;
   }
   .flip-card img{

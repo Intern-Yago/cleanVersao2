@@ -1,5 +1,30 @@
+@font-face {
+    font-family: 'Lemon Milk Bold';
+    src: url('fonts/LEMONMILK-Bold.otf');
+  }
+  @font-face {
+    font-family: 'Lemon Milk Regular';
+    src: url('fonts/LEMONMILK-Regular.otf');
+  }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 body{
     background-color: white;
+}
+h2{
+    font-family: 'Lemon Milk Bold';
+}
+a{
+    text-indent: 0;
+    text-align: center;
+}
+p, h3{
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1em;
+    font-family: 'Ubuntu;
+    
 }
 main{
     font-size: 1.2em;
@@ -9,21 +34,22 @@ main{
     justify-content: center;
     flex-direction: column;
     margin:0 100px;
-    top: 150px;
+    top: 120px;
     background-color: white;
 }
 .images{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .imgCima{
     width: 40vw;
     height: 60vh;
-    margin: 0 20px 40px;
+    margin: 0 20px 10px;
     border-radius: 10px;
 }
 .titleImg{
@@ -57,9 +83,10 @@ main{
         font-size: 1em;
     }
     .images img{
-        height: 30vh;
+        height: 25vh;
     }
     main{
         font-size: .9em;
+        top: 120px;
     }
 }
