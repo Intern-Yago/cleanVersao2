@@ -1,3 +1,3 @@
 setTimeout(function() {
-    window.location.href = "https://badl0rd.github.io/best-clean-brasilia";
+    window.location.href = "https://bestcleanbrasilia.com.br/";
 }, 3000);
